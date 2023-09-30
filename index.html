@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ak Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav">
+        <span>Ak Tech</span>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="calculator.html" >calculator</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+    </nav>
+
+    <button onclick="color()">Color</button>
+
+
+    <div class="contain">
+    <video src="video.mp4" autoplay loop muted type="mp4"></video>
+    <h4>This Web site is Calculator</h4>
+        </div>
+
+     
+
+
+
+
+
+
+
+
+
+
+    
+    <script>
+
+const hamburger=document.querySelector(".hamburger");
+const navbar=document.querySelector("ul");
+
+hamburger.addEventListener('click',()=>{
+    navbar.classList.toggle("slide");
+});
+
+
+
+function color()
+{
+        var color=(Math.floor(Math.random()*16777216)).toString(16);
+        console.log(color);
+        document.body.style.backgroundColor='#'+color;
+}
+
+
+
+    </script>
+</body>
+</html>
