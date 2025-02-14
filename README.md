@@ -3,6 +3,7 @@
 This project showcases a user-friendly calculator webpage built using HTML, CSS, and JavaScript. It allows users to perform basic arithmetic operations with an intuitive interface.
 
 **Technologies Used**
+
 HTML for structure
 
 CSS for styling
